@@ -1,0 +1,74 @@
+  \documentclass{article}
+ \usepackage[utf8]{inputenc}
+ \usepackage{ctex}
+ \usepackage{graphicx}
+ \setcounter{secnumdepth}{4}
+ \title{测试}
+ \author{门德尔松}
+ \date{\today}
+ 
+ \usepackage{listings}
+ \usepackage{color}
+ 
+ \definecolor{dkgreen}{rgb}{0,0.6,0}
+ \definecolor{gray}{rgb}{0.5,0.5,0.5}
+ \definecolor{mauve}{rgb}{0.58,0,0.82}
+ 
+ \lstset{frame=tb,
+ 	language=Java,
+ 	aboveskip=3mm,
+ 	belowskip=3mm,
+ 	showstringspaces=false,
+ 	columns=flexible,
+ 	basicstyle={\small\ttfamily},
+ 	numbers=none,
+ 	numberstyle=\tiny\color{gray},
+ 	keywordstyle=\color{blue},
+ 	commentstyle=\color{dkgreen},
+ 	stringstyle=\color{mauve},
+ 	breaklines=true,
+ 	breakatwhitespace=true,
+ 	tabsize=3
+ }
+ 
+ 
+\begin{document}
+\maketitle
+\section{你不好}
+你好，这是一个测试文档
+\subsection{睡觉的好处}
+\begin{enumerate}
+	\item 舒服
+	\item 消磨时间
+	\item 不用吃饭
+	\item 不睡会死
+\end{enumerate}
+\subsection{一段代码}
+\begin{lstlisting}[language=c++]
+	#include <iostream>
+	int main(){
+		cout<<"hello world"<<endl;
+		return rand(114514);
+	}
+\end{lstlisting}
+
+\pagebreak
+ 
+\section{小猫图片}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{strange_cat}
+	\caption{奇怪的猫}
+	\label{fig:strangecat}
+\end{figure}
+大星星代表的是中国共产党，其余四颗小星星分别代表：
+\begin{itemize}
+	\item 工人
+	\item 农民
+	\item 城市小资产阶级
+	\item 民族资产阶级
+\end{itemize}
+
+ 
+\end{document}
